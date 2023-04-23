@@ -1,0 +1,10 @@
+@font-face {
+    font-family: libreBaskerville;
+    src: url(Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+
+body {
+    font-family: libreBaskerville;
+    background-color: #fbe3e8;
+}
+
