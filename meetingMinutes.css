@@ -42,7 +42,6 @@ body {
     height: 100vh;
     max-width: fit-content;
     max-height: fit-content;
-    font-family: libreBaskerville;
     margin: 40px 40px 40px 40px;
     background-color: #fbe3e8;
     border: 1px solid black;
@@ -80,11 +79,48 @@ button:active {
     color: blue;
 }
 
-h3 {
+h1{
     display: block;
 }
 
-h2 {
+h2, h3 {
     display: inline;
+    color: red;
 }
 
+.blue-text {
+    color: blue;
+    font-weight: bold;
+}
+
+#agenda {
+    color: red;
+}
+
+* {
+    font-family: libreBaskerville;
+}
+
+a[href = "5"] {
+    background-color: lightblue;
+}
+
+ul li {
+    background-color: red;
+}
+
+ol > li {
+    background-color: blue;
+}
+
+h3 ~ p {
+    color: green;
+}
+
+summary + p {
+    color: gray;
+}
+
+a.yellow {
+    background-color: yellow;
+}
