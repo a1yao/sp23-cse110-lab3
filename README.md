@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://a1yao.github.io/Lab2_Starter/
+https://a1yao.github.io/sp23-cse110-lab3/

@@ -1,9 +1,15 @@
 <!DOCTYPE html>
+<style>
+    label {
+        color: red;
+    }
+</style>
 <html lang="en">
   <head>
     <meta name = "author" content = "Anthony Yao">
     <title>Meeting Minutes</title>
     <link rel = "icon" type = "image/x-icon" href = "favicon.ico">
+    <link rel = "stylesheet" href = "meetingMinutes.css">
   </head>
   <body>
     <header><h1>Meeting Minutes</h1></header>
@@ -12,15 +18,15 @@
         <h2>Brainstorm</h2>
         <nav class = "menu">
             <ul>
-                <li><a href = #>Attendance List</a></li>
+                <li><a href = "5">Attendance List</a></li>
                 <li><a href = #>Agenda</a></li>
-                <li><a href = #>Businesses</a></li>
+                <li><a href = # class = "yellow">Businesses</a></li>
                 <li><a href = #>Misc</a></li>
                 <li><a href = #>Media</a></li>
             </ul>
         </nav>
         <section>
-            <h3>Agenda</h3>
+            <h3 id = "agenda">Agenda</h3>
             <ol>
                 <li><b>Discuss</b> Unfinished Business</li>
                 <li>Discuss New Business</li>
@@ -28,13 +34,13 @@
         </section>
         <section>
             <h3>Unfinished Business</h3>
-            <p>Here, we discuss our unfinished <span style = "color:blue">business</span>. <strong>Warning!</strong> this is very dangerous. <br> Hello in Spanish is <i>hola</i>. I <em>hate</em> bittermelon. </p>
+            <p>Here, we discuss our unfinished <span class = "blue-text">business</span>. <strong>Warning!</strong> this is very dangerous. <br> Hello in Spanish is <i>hola</i>. I <em>hate</em> bittermelon. </p>
         </section>
         <section>
             <h3>Media</h3>
-            <img src = "dog.jpg" alt = "dog" width = 500 height = 499>
+            <img src = "dog.jpg" alt = "dog" width = 200 height = 200>
             <details>
-                <summary>Dog Fact</summary>
+                <summary  style = "color:blue">Dog Fact</summary>
                 <p>
                     I love dogs.
                 </p>
