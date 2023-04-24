@@ -3,8 +3,88 @@
     src: url(Libre_Baskerville/LibreBaskerville-Regular.ttf);
 }
 
+@media (max-width: 1250px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    width: 10cm;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    border-left: 1px solid black;
+    border-right: 1px solid blue;
+    border-top: 1px solid red;
+    border-bottom: 10px solid green;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    color: blue;
+    text-decoration: underline dotted red;
+    text-align: center;
+
+    position: sticky;
+}
+
 body {
+    width: 100vw;
+    height: 100vh;
+    max-width: fit-content;
+    max-height: fit-content;
     font-family: libreBaskerville;
+    margin: 40px 40px 40px 40px;
     background-color: #fbe3e8;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-items: center;
+
+    position: static;
+
+}
+
+.ems li {
+    font-size: 1.4rem;
+}
+
+h2 {
+    width: 80in;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+button:hover {
+    color: red;
+}
+
+button:active {
+    color: blue;
+}
+
+h3 {
+    display: block;
+}
+
+h2 {
+    display: inline;
 }
 
