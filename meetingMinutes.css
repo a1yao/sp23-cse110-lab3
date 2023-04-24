@@ -1,0 +1,157 @@
+/*font*/
+@font-face {
+    font-family: libreBaskerville;
+    src: url(Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+
+
+/*media query*/
+@media (max-width: 1250px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/*font size changing*/
+html {
+    font-size: 16px;
+}
+
+
+/*Here is the bulk of where styling the body and its elements begins*/
+header {
+    width: 10cm;
+    /*longhand margin*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+    /*using color*/
+    /*border*/
+    border-left: 1px solid black;
+    border-right: 1px solid blue;
+    border-top: 1px solid red;
+    border-bottom: 10px solid green;
+
+    /*longhand padding and using units*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    /*styling text*/
+    color: blue;
+    text-decoration: underline dotted red;
+    text-align: center;
+
+    position: sticky;
+}
+
+body {
+    /*sizing*/
+    width: 100vw;
+    height: 100vh;
+    max-width: fit-content;
+    min-width: fit-content;
+    /*shorthand margin*/
+    margin: 40px 40px 40px 40px;
+    background-color: #fbe3e8;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+
+    /*grid*/
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-items: center;
+
+    /*using position*/
+    position: static;
+
+}
+
+.ems li {
+    font-size: 1.4rem;
+}
+
+h2 {
+    width: 80in;
+}
+
+section {
+    /*flexbox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/*pseudo-class*/
+button:hover {
+    color: red;
+}
+
+button:active {
+    color: blue;
+}
+
+/*changing display*/
+h1{
+    display: block;
+}
+
+/*selector list*/
+h2, h3 {
+    display: inline;
+    color: red;
+}
+
+/*class selector*/
+.blue-text {
+    color: blue;
+    font-weight: bold;
+}
+
+/*id selector*/
+#agenda {
+    color: red;
+}
+
+
+/*universal selector*/
+* {
+    font-family: libreBaskerville;
+}
+
+/*attribute selector*/
+a[href = "5"] {
+    background-color: lightblue;
+}
+
+/*descendant combinator*/
+ul li {
+    background-color: red;
+}
+
+/*child combinator*/
+ol > li {
+    background-color: blue;
+}
+
+/*general sibling*/
+h3 ~ p {
+    color: green;
+}
+
+/*adjacent sibling*/
+summary + p {
+    color: gray;
+}
+
+/*combining two selectors*/
+a.yellow {
+    background-color: yellow;
+}
